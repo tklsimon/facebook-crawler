@@ -3,7 +3,6 @@ import logging
 import time
 import os
 import re
-from datetime import datetime
 from selenium import webdriver
 from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.common.by import By
@@ -26,7 +25,7 @@ class FacebookCrawler:
         """
         self.driver = self.__setup_webdriver()
         self.facebook_url = 'https://www.facebook.com/'
-        self.other_lang_list = ['vi']
+        self.other_lang_list = ['xxx', 'yyy']
         self.other_lang_ratio_thrhld = 0.5
         # Login to Facebook
         self.__try_login()
