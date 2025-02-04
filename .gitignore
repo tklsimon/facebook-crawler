@@ -1,0 +1,8 @@
+.ipynb_checkpoints
+.idea
+*.pyc
+*.csv
+*.xlsx
+
+Backup/*
+lid.176.bin
